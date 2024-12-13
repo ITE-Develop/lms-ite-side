@@ -17,7 +17,7 @@
       "@images": ["src/assets/images/*"],
       "@middlewares" : ["src/router/middlewares"],
       "@router": ["src/router/*"],
-      "@store": ["src/store/*"]
+      "@store": ["src/stores/*"]
     },
     "types": ["element-plus/global"]
   },
