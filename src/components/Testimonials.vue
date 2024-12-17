@@ -4,7 +4,7 @@
             <div class="carousel-item active">
                 <div class="col-9 mx-auto bg-white p-5 testimonial">
                     <div class="d-flex align-items-center">
-                        <img :src="'/assets/images/website/testimonial_1.png'" class="profile-picture" height="192px"
+                        <img src="@/assets/images/website/testimonial_1.png" class="profile-picture" height="192px"
                             width="192px">
                         <div class="w-100 px-5">
                             <div class="d-flex justify-content-between mb-3">
@@ -32,7 +32,7 @@
             <div class="carousel-item">
                 <div class="col-9 mx-auto bg-white p-5 testimonial">
                     <div class="d-flex align-items-center">
-                        <img :src="'/assets/images/website/testimonial_1.png'" class="profile-picture" height="192px"
+                        <img src="@/assets/images/website/testimonial_1.png" class="profile-picture" height="192px"
                             width="192px">
                         <div class="w-100 px-5">
                             <div class="d-flex justify-content-between mb-3">
@@ -59,7 +59,7 @@
             <div class="carousel-item">
                 <div class="col-9 mx-auto bg-white p-5 testimonial">
                     <div class="d-flex align-items-center">
-                        <img :src="'/assets/images/website/testimonial_1.png'" class="profile-picture" height="192px"
+                        <img src="@/assets/images/website/testimonial_1.png" class="profile-picture" height="192px"
                             width="192px">
                         <div class="w-100 px-5">
                             <div class="d-flex justify-content-between mb-3">

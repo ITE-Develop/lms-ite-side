@@ -1,7 +1,7 @@
 <template>
     <section class="pb-3 hero">
         <img
-            :src="'/assets/images/website/hero-fancy-circle.svg'"
+            src="@/assets/images/website/hero-fancy-circle.svg"
             class="position-fixed"
         />
         <section class="container">
@@ -53,13 +53,13 @@
                         >
                             <div class="d-flex mb-2">
                                 <img
-                                    :src="'/assets/images/website/student_1.png'"
+                                    src="@/assets/images/website/student_1.png"
                                     class="rounded-circle student-img object-fit-cover"
                                     width="30px"
                                     height="30px"
                                 />
                                 <img
-                                    :src="'/assets/images/website/student_2.png'"
+                                    src="@/assets/images/website/student_2.png"
                                     class="rounded-circle student-img object-fit-cover secondary"
                                     width="30px"
                                     height="30px"
@@ -112,7 +112,7 @@
                         </div>
 
                         <img
-                            :src="'/assets/images/website/reaction-illustration.png'"
+                            src="@/assets/images/website/reaction-illustration.png"
                             class="reaction-illustration"
                             :class="{
                                 'animate-reaction':
@@ -120,7 +120,7 @@
                             }"
                         />
                         <img
-                            :src="'/assets/images/website/hero-illustration.png'"
+                            src="@/assets/images/website/hero-illustration.png"
                             loading="lazy"
                             class="w-100"
                             alt="Hero Illustration"

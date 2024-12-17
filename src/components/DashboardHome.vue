@@ -43,7 +43,7 @@
                         <span class="d-block">My Courses</span>
                         <strong class="fs-5">{{ totalCourseCount }}</strong>
                     </div>
-                    <img :src="'assets/images/website/hero-popular.png'" height="60px" width="60px" class="my-auto">
+                    <img src="@/assets/images/website/hero-popular.png" height="60px" width="60px" class="my-auto">
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
                         <span class="d-block">Completed Courses</span>
                         <strong class="fs-5">{{ completedCourseCount }}</strong>
                     </div>
-                    <img :src="'assets/images/website/hero-popular.png'" height="60px" width="60px" class="my-auto">
+                    <img src="@/assets/images/website/hero-popular.png" height="60px" width="60px" class="my-auto">
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                         <span class="d-block">Certificate Achieved</span>
                         <strong class="fs-5">{{ certificateAchieved }}</strong>
                     </div>
-                    <img :src="'assets/images/website/hero-popular.png'" height="60px" width="60px" class="my-auto">
+                    <img src="@/assets/images/website/hero-popular.png" height="60px" width="60px" class="my-auto">
                 </div>
             </div>
         </div>

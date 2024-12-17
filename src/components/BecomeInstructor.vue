@@ -1,7 +1,7 @@
 <template>
     <div class="call-to-action col-10 mx-auto row align-items-center rounded-5 px-4 py-5 mb-5 mb-lg-auto">
         <div class="col-lg-6 text-center">
-            <img :src="'/assets/images/website/become-instructor.png'" width="391px" height="467px"
+            <img src="@/assets/images/website/become-instructor.png" width="391px" height="467px"
                 alt="Become instructor">
         </div>
         <div class="col-lg-6">

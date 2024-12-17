@@ -138,7 +138,7 @@
 
 <style lang="scss" scoped>
 .details-container {
-    background-image: url("/assets/images/website/details-bg.png");
+    background-image: url("@/assets/images/website/details-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
 }

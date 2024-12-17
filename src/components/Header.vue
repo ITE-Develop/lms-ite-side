@@ -31,8 +31,7 @@
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                     >
-                        <img
-                            :src="'/assets/images/website/category.svg'"
+                        <img src="@/assets/images/website/category.svg"
                             class="me-2"
                         />
                         Category<i class="ri ri-arrow-down-s-line ms-4"></i>

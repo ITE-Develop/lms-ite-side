@@ -21,7 +21,7 @@
 
 <style lang="scss" scoped>
 .newsletter {
-    background-image: url('/assets/images/website/newsletter-bg.svg');
+    background-image: url("@/assets/images/website/newsletter-bg.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

@@ -72,7 +72,7 @@
                                     class="btn btn-primary d-flex rounded-pill px-4"
                                 >
                                     <img
-                                        :src="'/assets/images/website/search.svg'"
+                                        src="@/assets/images/website/search.svg"
                                         alt="Search"
                                     />
                                 </button>

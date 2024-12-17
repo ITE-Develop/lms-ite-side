@@ -180,7 +180,7 @@
 
 <style lang="scss" scoped>
 .play-meta-background {
-    background: url("/assets/images/website/details-bg.png") no-repeat center;
+    background: url("@/assets/images/website/details-bg.png") no-repeat center;
     background-size: cover;
     padding-top: 20px;
     padding-bottom: 200px;

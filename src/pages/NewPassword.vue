@@ -3,7 +3,7 @@
         <section class="login-wizard bg-white col-8 theme-shadow">
             <div class="row">
                 <div class="col-6 px-5 py-4">
-                    <img :src="'/assets/images/logo-new.png'" class="object-fit-cover" alt="Login" height="50px" />
+                    <img src="@/assets/images/logo-new.png" class="object-fit-cover" alt="Login" height="50px" />
                     <div class="d-flex h-100">
                         <div class="my-auto w-100">
                             <h3 class="fw-bold mb-3">Set Password</h3>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <img :src="'/assets/images/login-bg.png'" class="side-image object-fit-cover w-100">
+                    <img src="@/assets/images/login-bg.png" class="side-image object-fit-cover w-100">
                 </div>
             </div>
         </section>

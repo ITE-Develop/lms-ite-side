@@ -9,7 +9,7 @@
                     <div class="text-center">
                         <router-link to="/" class="mb-4"
                             ><img
-                                :src="'/assets/images/logo-new.png'"
+                                src="@/assets/images/logo-new.png"
                                 class="object-fit-cover"
                                 alt="Login"
                                 height="50px"
@@ -155,7 +155,7 @@
                 </div>
                 <div class="col-6">
                     <img
-                        :src="'/assets/images/website/image.png'"
+                        src="@/assets/images/website/image.png"
                         class="side-image object-fit-cover w-100"
                     />
                 </div>

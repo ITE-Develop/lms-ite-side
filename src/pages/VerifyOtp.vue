@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <img :src="'/assets/images/login-bg.png'" class="side-image object-fit-cover w-100">
+                    <img src="@/assets/images/login-bg.png" class="side-image object-fit-cover w-100">
                 </div>
             </div>
         </section>
