@@ -67,7 +67,7 @@
 </style>
 
 <script setup>
-import { useAuthStore } from '@/stores/auth'
+import { useAuthStore } from '@/stores/auth.js'
 import { ref } from 'vue';
 const authStore = useAuthStore()
 

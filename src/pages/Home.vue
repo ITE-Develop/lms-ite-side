@@ -79,11 +79,11 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import Hero from "../components/Hero.vue";
 import About from "../components/About.vue";
 import FeaturedCategories from "../components/FeaturedCategories.vue";
-import FeaturedInstructors from "../components/FeaturedInstructors.vue";
+import FeaturedInstructors from "../components/Instructor/FeaturedInstructors.vue";
 import FAQ from "../components/FAQ.vue";
 import Testimonials from "../components/Testimonials.vue";
-import BecomeInstructor from "../components/BecomeInstructor.vue";
+import BecomeInstructor from "../components/Instructor/BecomeInstructor.vue";
 import Newsletter from "../components/Newsletter.vue";
-import PopularCourses from "../components/PopularCourses.vue";
-import LatestCourseSlider from "../components/LatestCourseSlider.vue";
+import PopularCourses from "../components/Courses/PopularCourses.vue";
+import LatestCourseSlider from "../components/Courses/LatestCourseSlider.vue";
 </script>

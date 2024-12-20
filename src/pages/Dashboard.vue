@@ -52,11 +52,11 @@
 </template>
 
 <script setup>
-import DashboardProfile from '../components/DashboardProfile.vue';
-import DashboardHome from '../components/DashboardHome.vue';
-import DashboardMenu from '../components/DashboardMenu.vue';
-import DashboardSidebar from '../components/DashboardSidebar.vue';
-import DashboardCourses from '../components/DashboardCourses.vue';
-import DashboardCertificates from '../components/DashboardCertificates.vue';
-import DashboardPayment from '../components/DashboardPayment.vue';
+import DashboardProfile from '../components/Deshboard/DashboardProfile.vue';
+import DashboardHome from '../components/Deshboard/DashboardHome.vue';
+import DashboardMenu from '../components/Deshboard/DashboardMenu.vue';
+import DashboardSidebar from '../components/Deshboard/DashboardSidebar.vue';
+import DashboardCourses from '../components/Deshboard/DashboardCourses.vue';
+import DashboardCertificates from '../components/Deshboard/DashboardCertificates.vue';
+import DashboardPayment from '../components/Deshboard/DashboardPayment.vue';
 </script>

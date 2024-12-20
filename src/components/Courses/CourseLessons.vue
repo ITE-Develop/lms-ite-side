@@ -307,7 +307,7 @@
 import { defineProps, ref, computed, onMounted } from "vue";
 import Swal from "sweetalert2";
 import { useRoute } from "vue-router";
-import { useAuthStore } from "@/stores/auth";
+import { useAuthStore } from "@/stores/auth.js";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";

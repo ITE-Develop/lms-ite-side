@@ -165,12 +165,12 @@ import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import axios from "axios";
 import { useAuthStore } from "@/stores/auth";
-import CourseAbout from "../components/CourseAbout.vue";
-import CourseLessons from "../components/CourseLessons.vue";
-import CourseFree from "../components/CourseFree.vue";
-import CourseMetadata from "../components/CourseMetadata.vue";
-import CoursePreview from "../components/CoursePreview.vue";
-import CourseReviews from "../components/CourseReviews.vue";
+import CourseAbout from "../components/Courses/CourseAbout.vue";
+import CourseLessons from "../components/Courses/CourseLessons.vue";
+import CourseFree from "../components/Courses/CourseFree.vue";
+import CourseMetadata from "../components/Courses/CourseMetadata.vue";
+import CoursePreview from "../components/Courses/CoursePreview.vue";
+import CourseReviews from "../components/Courses/CourseReviews.vue";
 
 const authStore = useAuthStore();
 const route = useRoute();

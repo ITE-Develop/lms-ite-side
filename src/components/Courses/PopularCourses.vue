@@ -71,7 +71,7 @@ const popularCourses = ref([]);
 const featuredCategories = ref([]);
 const totalCourses = ref(0);
 
-import { useAuthStore } from "@/stores/auth";
+import { useAuthStore } from "@/stores/auth.js";
 
 const authStore = useAuthStore();
 

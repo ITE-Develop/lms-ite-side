@@ -101,7 +101,7 @@
 <script setup>
 
 // import useMasterStore from ''
-import { useMasterStore } from '@/stores/master'
+import { useMasterStore } from '@/stores/master.js'
 
 const masterStore = useMasterStore()
 

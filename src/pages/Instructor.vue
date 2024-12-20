@@ -91,8 +91,8 @@
 
 <script setup>
 import { ref, computed } from "vue";
-import InstructorAbout from "../components/InstructorAbout.vue";
-import CourseCard from "../components/CourseCard.vue";
+import InstructorAbout from "../components/Instructor/InstructorAbout.vue";
+import CourseCard from "../components/Courses/CourseCard.vue";
 import { useRoute } from "vue-router";
 
 const route = useRoute();

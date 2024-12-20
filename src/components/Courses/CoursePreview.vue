@@ -177,8 +177,8 @@
 <script setup>
 import { ref, computed } from "vue";
 import Swal from "sweetalert2";
-import { useAuthStore } from "@/stores/auth";
-import { useMasterStore } from "@/stores/master";
+import { useAuthStore } from "@/stores/auth.js";
+import { useMasterStore } from "@/stores/master.js";
 
 const authStore = useAuthStore();
 const masterStore = useMasterStore();

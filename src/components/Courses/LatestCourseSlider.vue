@@ -10,7 +10,7 @@
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { useAuthStore } from '@/stores/auth'
+import { useAuthStore } from '@/stores/auth.js'
 import { onMounted, ref } from "vue";
 import CourseCard from "./CourseCard.vue";
 

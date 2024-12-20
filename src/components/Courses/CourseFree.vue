@@ -87,7 +87,7 @@
 import { defineProps, computed } from 'vue';
 import Swal from 'sweetalert2';
 import { useRoute } from 'vue-router';
-import { useAuthStore } from '@/stores/auth';
+import { useAuthStore } from '@/stores/auth.js';
 const authStore = useAuthStore();
 
 const route = useRoute();

@@ -138,7 +138,7 @@
 </style>
 
 <script setup>
-import { useAuthStore } from "@/stores/auth";
+import { useAuthStore } from "@/stores/auth.js";
 import { ref, watch } from "vue";
 import Swal from "sweetalert2";
 

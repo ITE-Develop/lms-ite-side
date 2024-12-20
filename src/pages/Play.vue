@@ -238,7 +238,7 @@
 </style>
 
 <script setup>
-import CourseLessons from "../components/CourseLessons.vue";
+import CourseLessons from "../components/Courses/CourseLessons.vue";
 import { onMounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
 import { useAuthStore } from "@/stores/auth";

@@ -38,7 +38,7 @@
 
 <script setup>
 import Swal from 'sweetalert2'
-import { useAuthStore } from '@/stores/auth'
+import { useAuthStore } from '@/stores/auth.js'
 import { useRouter } from 'vue-router';
 
 const router = useRouter()

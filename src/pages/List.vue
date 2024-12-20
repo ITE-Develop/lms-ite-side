@@ -119,10 +119,10 @@ import { useRouter, useRoute } from "vue-router";
 import axios from "axios";
 import CategoryFilter from "../components/CategoryFilter.vue";
 import RatingFilter from "../components/RatingFilter.vue";
-import InstructorFilter from "../components/InstructorFilter.vue";
+import InstructorFilter from "../components/Instructor/InstructorFilter.vue";
 import SortOptions from "../components/SortOptions.vue";
 import { VueAwesomePaginate } from "vue-awesome-paginate";
-import CourseCard from "../components/CourseCard.vue";
+import CourseCard from "../components/Courses/CourseCard.vue";
 import { useAuthStore } from "@/stores/auth";
 
 const authStore = useAuthStore();

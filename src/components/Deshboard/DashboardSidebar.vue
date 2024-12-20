@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { useAuthStore } from "@/stores/auth";
+import { useAuthStore } from "@/stores/auth.js";
 import DashboardMenu from "./DashboardMenu.vue";
 const authStore = useAuthStore();
 </script>
