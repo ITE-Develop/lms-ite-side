@@ -1,6 +1,27 @@
 import axios from 'axios';
-window.axios = axios;
+import store from './stores/index';
+import router from '@/router/router';
 
-window.axios.defaults.baseURL = '/api';
+const axiosClient = axios.create({
+  baseURL: `${import.meta.env.development.VITE_API_BASE_URL}/api`,
+});
 
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+axiosClient.interceptors.request.use((config) => {
+  config.headers.Authorization = `Bearer ${store.state.user.token}`;
+  return config;
+});
+
+axiosClient.interceptors.response.use(
+  (response) => {
+    return response;
+  },
+  (error) => {
+    if (error.response.status === 401) {
+      store.commit('setToken', null);
+      router.push({ name: 'login' });
+    }
+    throw error;
+  },
+);
+
+export default axiosClient;

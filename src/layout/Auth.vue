@@ -1,6 +1,6 @@
 <template>
-    <slot />
-    <AuthFooter />
+  <slot />
+  <AuthFooter />
 </template>
 
 <script setup>

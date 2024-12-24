@@ -10,9 +10,7 @@
           >Privacy Policy</router-link
         >
       </div>
-      <div class="col-4 d-flex align-items-center justify-content-center">
-        {{ masterData.credit_text }}
-      </div>
+      <div class="col-4 d-flex align-items-center justify-content-center">Power by ITE-Development</div>
       <div class="col-4 d-flex align-items-center justify-content-end">
         <span>Download Our App</span>
         <div class="ms-5">
@@ -23,11 +21,3 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-import { useMasterStore } from '@/stores/master';
-import { ref } from 'vue';
-
-const masterStore = useMasterStore();
-const masterData = ref(masterStore.masterData);
-</script>

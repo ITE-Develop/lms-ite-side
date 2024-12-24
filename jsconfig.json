@@ -12,7 +12,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*", "./mock/*"],
-      "@composables": ["src/composables/*"],
+      "@composables": ["src/composibles/*"],
       "@fonts": ["src/assets/fonts/*"],
       "@images": ["src/assets/images/*"],
       "@middlewares" : ["src/router/middlewares"],

@@ -3,7 +3,7 @@ import { createPinia } from 'pinia';
 import App from './App.vue';
 import router from './router/router';
 import store from './stores';
-
+import './axio.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@/library/smoothscroll.main';
 import '@/style/sass/app.scss';
