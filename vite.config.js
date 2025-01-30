@@ -8,6 +8,7 @@ import Components from 'unplugin-vue-components/vite';
 import { TDesignResolver } from 'unplugin-vue-components/resolvers';
 import compression from 'vite-plugin-compression';
 import obfuscatorPlugin from 'vite-plugin-javascript-obfuscator';
+import VueDevTools from 'vite-plugin-vue-devtools'
 export default ({ mode }) => {
   const src = 'src';
   const { VITE_PORT, VITE_BASE_URL } = loadEnv(mode, process.cwd());
@@ -19,6 +20,7 @@ export default ({ mode }) => {
   return defineConfig({
     base: VITE_BASE_URL,
     plugins: [
+      VueDevTools(),
       vue(),
       AutoImport({
         imports: ['vue', 'vue-router', 'pinia'],
