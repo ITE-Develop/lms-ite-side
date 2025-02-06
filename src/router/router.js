@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router';
 import defaultLayout from '@/layout/Default.vue';
 import dashboardLayout from '@/layout/Dashboad.vue';
 import authLayout from '@/layout/Auth.vue';
-import { useAuthStore } from '@/stores/auth';
 
 const router = createRouter({
   history: createWebHistory(),
