@@ -68,9 +68,9 @@ export function useMetaTag({
       'meta[property^="og:"]',
       'meta[name^="twitter:"]',
       'script[type="application/ld+json"]',
-    ].forEach(selector => {
+    ].forEach((selector) => {
       const elements = document.querySelectorAll(selector);
-      elements.forEach(el => el.remove());
+      elements.forEach((el) => el.remove());
     });
   };
 }

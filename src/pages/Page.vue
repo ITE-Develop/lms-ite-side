@@ -5,9 +5,7 @@
             <div v-html="page?.content"></div>
         </article>
         <p v-else class="text-center">
-            <i
-                class="ri-error-warning-fill d-block display-1 text-danger mb-3"
-            ></i>
+            <i class="ri-error-warning-fill d-block display-1 text-danger mb-3"></i>
             <span class="d-block fw-bold h3">Page Not Found!</span>
         </p>
     </section>

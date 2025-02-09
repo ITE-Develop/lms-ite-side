@@ -26,9 +26,8 @@
           <h3 class="fw-bold fs-2">Newest Courses</h3>
           <p>Recently published courses</p>
         </div>
-        <router-link to="/courses" class="text-primary text-decoration-none fw-bold"
-          >View All <font-awesome-icon :icon="faArrowRightLong"
-        /></router-link>
+        <router-link to="/courses" class="text-primary text-decoration-none fw-bold">View All <font-awesome-icon
+            :icon="faArrowRightLong" /></router-link>
       </div>
       <LatestCourseSlider />
     </div>
