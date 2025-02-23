@@ -1,6 +1,5 @@
-// axios.js
 import Axios from 'axios';
-// Dynamic import
+
 const getStore = async () => {
   const { store } = await import('./stores');
   return store;

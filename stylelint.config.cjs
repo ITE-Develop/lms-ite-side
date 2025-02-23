@@ -2,10 +2,10 @@ module.exports = {
   root: true,
   plugins: ['stylelint-order', 'stylelint-less'],
   extends: [
-    'stylelint-config-standard', // the standard shareable config for Stylelint
-    'stylelint-config-html/html', // the shareable html config for Stylelint.
-    'stylelint-config-html/vue', // the shareable vue config for Stylelint.
-    'stylelint-config-recess-order', // use the clean order for properties
+    'stylelint-config-standard',
+    'stylelint-config-html/html',
+    'stylelint-config-html/vue',
+    'stylelint-config-recess-order',
   ],
   rules: {
     'no-descending-specificity': null,
