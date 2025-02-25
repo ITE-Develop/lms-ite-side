@@ -13,7 +13,8 @@
     "lint:fix": "eslint --cache --max-warnings 0 \"{src,mock}/**/*.{vue,js,ts,tsx}\" --fix",
     "stylelint": "stylelint \"**/*.{html,vue,css,less}\" --cache",
     "stylelint:fix": "stylelint \"**/*.{html,vue,css,less}\" --cache --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -77,6 +78,7 @@
     "vite": "^5.0.2",
     "vite-plugin-html": "^3.2.2",
     "vite-plugin-vue-devtools": "^7.6.8",
+    "vitest": "^3.0.7",
     "vue-awesome-paginate": "^1.2.0",
     "vue-eslint-parser": "^9.3.2"
   },
