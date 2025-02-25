@@ -14,7 +14,7 @@
     "stylelint": "stylelint \"**/*.{html,vue,css,less}\" --cache",
     "stylelint:fix": "stylelint \"**/*.{html,vue,css,less}\" --cache --fix",
     "prepare": "husky install",
-    "test": "vitest"
+    "test:unit": "vitest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -51,7 +51,8 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@eslint/js": "^8.54.0",
-    "@vitejs/plugin-vue": "^4.5.0",
+    "@vitejs/plugin-vue": "^4.6.2",
+    "@vue/test-utils": "^2.4.6",
     "autoprefixer": "^10.4.16",
     "cz-git": "^1.7.1",
     "eslint": "^8.54.0",
@@ -61,6 +62,7 @@
     "eslint-plugin-vue": "^9.18.1",
     "html-minifier-terser": "^7.2.0",
     "husky": "^8.0.3",
+    "jsdom": "^26.0.0",
     "less": "^4.2.0",
     "lint-staged": "^15.1.0",
     "netlify-cli": "^18.1.0",

@@ -9,10 +9,6 @@ import '@/style/sass/app.scss';
 import VueAwesomePaginate from 'vue-awesome-paginate';
 import piniaPersist from 'pinia-plugin-persistedstate';
 
-// import '@/assets/scss/app.scss';
-// import '@/style/less/index.less';
-// import 'tdesign-vue-next/es/style/index.css';
-
 const app = createApp(App);
 const pinia = createPinia();
 pinia.use(piniaPersist);
